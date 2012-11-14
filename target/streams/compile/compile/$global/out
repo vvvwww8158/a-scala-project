@@ -1,0 +1,33 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/data/workspace/lift-examples/lift_blank/src/main/scala/code/snippet/LoginSnippet.scala)[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mModified external sources: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/data/workspace/lift-examples/lift_blank/src/main/scala/code/snippet/LoginSnippet.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mInitially invalidated: Set(/data/workspace/lift-examples/lift_blank/src/main/scala/code/snippet/LoginSnippet.scala)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /data/workspace/lift-examples/lift_blank/target/scala-2.9.1/classes...[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 7bb6ce6, interfacing (CompilerInterface) with Scala compiler version 2.9.1.final[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-unchecked[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/data/workspace/lift-examples/lift_blank/target/scala-2.9.1/classes[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/data/java/jdk1.7.0_09/jre/lib/resources.jar:/data/java/jdk1.7.0_09/jre/lib/rt.jar:/data/java/jdk1.7.0_09/jre/lib/sunrsasign.jar:/data/java/jdk1.7.0_09/jre/lib/jsse.jar:/data/java/jdk1.7.0_09/jre/lib/jce.jar:/data/java/jdk1.7.0_09/jre/lib/charsets.jar:/data/java/jdk1.7.0_09/jre/lib/jfr.jar:/data/java/jdk1.7.0_09/jre/classes:/home/devuser/.sbt/boot/scala-2.9.1/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/data/workspace/lift-examples/lift_blank/target/scala-2.9.1/classes:/data/java/repo/ivy2/cache/net.liftweb/lift-webkit_2.9.1/jars/lift-webkit_2.9.1-2.5-M2.jar:/data/java/repo/ivy2/cache/net.liftweb/lift-util_2.9.1/jars/lift-util_2.9.1-2.5-M2.jar:/data/java/repo/ivy2/cache/net.liftweb/lift-actor_2.9.1/jars/lift-actor_2.9.1-2.5-M2.jar:/data/java/repo/ivy2/cache/net.liftweb/lift-common_2.9.1/jars/lift-common_2.9.1-2.5-M2.jar:/data/java/repo/ivy2/cache/net.liftweb/lift-json_2.9.1/jars/lift-json_2.9.1-2.5-M2.jar:/data/java/repo/ivy2/cache/org.scala-lang/scalap/jars/scalap-2.9.1.jar:/data/java/repo/sbt/boot/scala-2.9.1/lib/scala-compiler.jar:/data/java/repo/ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.4.1.jar:/data/java/repo/ivy2/cache/joda-time/joda-time/jars/joda-time-1.6.2.jar:/data/java/repo/ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.6.jar:/data/java/repo/ivy2/cache/javax.mail/mail/jars/mail-1.4.4.jar:/data/java/repo/ivy2/cache/javax.activation/activation/jars/activation-1.1.jar:/data/java/repo/ivy2/cache/nu.validator.htmlparser/htmlparser/bundles/htmlparser-1.4.jar:/data/java/repo/ivy2/cache/commons-fileupload/commons-fileupload/jars/commons-fileupload-1.2.2.jar:/data/java/repo/ivy2/cache/net.liftmodules/lift-jquery-module_2.9.1/jars/lift-jquery-module_2.9.1-2.5-M2-1.0.jar:/data/java/repo/ivy2/cache/net.liftweb/lift-testkit_2.9.1/jars/lift-testkit_2.9.1-2.5-M2.jar:/data/java/repo/ivy2/cache/commons-httpclient/commons-httpclient/jars/commons-httpclient-3.1.jar:/data/java/repo/ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.0.4.jar:/data/java/repo/ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.0.6.jar:/data/java/repo/ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.0.6.jar:/data/java/repo/ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.5.jar:/data/java/repo/ivy2/cache/org.squeryl/squeryl_2.9.1/jars/squeryl_2.9.1-0.9.5-3.jar:/data/java/repo/ivy2/cache/cglib/cglib-nodep/jars/cglib-nodep-2.2.jar:/data/java/repo/ivy2/cache/postgresql/postgresql/jars/postgresql-9.1-901.jdbc4.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 1.112980019 s[0m
+[0m[[0mdebug[0m] [0mStep 2 changed sources and immdediate dependencies:[0m
+[0m[[0mdebug[0m] [0m	Set(/data/workspace/lift-examples/lift_blank/src/main/scala/code/snippet/LoginSnippet.scala)[0m
+[0m[[0mdebug[0m] [0mNon-trivial strongly connected components: [0m
+[0m[[0mdebug[0m] [0m	[0m
+[0m[[0mdebug[0m] [0mStep 2 invalidated sources:[0m
+[0m[[0mdebug[0m] [0m	Set(/data/workspace/lift-examples/lift_blank/src/main/scala/code/snippet/LoginSnippet.scala)[0m

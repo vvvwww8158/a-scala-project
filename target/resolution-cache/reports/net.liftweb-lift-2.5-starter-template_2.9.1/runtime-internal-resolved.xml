@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="net.liftweb"
+		module="lift-2.5-starter-template_2.9.1"
+		revision="0.0.1"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, container"
+		date="20121114155126"/>
+	<dependencies>
+		<module organisation="postgresql" name="postgresql">
+			<revision name="9.1-901.jdbc4" status="release" pubdate="20120905055254" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jdbc.postgresql.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="24">
+				<license name="BSD License" url="http://jdbc.postgresql.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2349" time="0" location="/home/devuser/.ivy2/cache/postgresql/postgresql/ivy-9.1-901.jdbc4.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/postgresql/postgresql/9.1-901.jdbc4/postgresql-9.1-901.jdbc4.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template_2.9.1" conf="optional, compile, runtime, runtime-internal" rev="9.1-901.jdbc4" rev-constraint-default="9.1-901.jdbc4" rev-constraint-dynamic="9.1-901.jdbc4" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="postgresql" type="jar" ext="jar" status="no" details="" size="539705" time="0" location="/home/devuser/.ivy2/cache/postgresql/postgresql/jars/postgresql-9.1-901.jdbc4.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/postgresql/postgresql/9.1-901.jdbc4/postgresql-9.1-901.jdbc4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.squeryl" name="squeryl_2.9.1">
+			<revision name="0.9.5-3" status="release" pubdate="20120921030750" resolver="releases" artresolver="releases" homepage="http://squeryl.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="22">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3796" time="0" location="/home/devuser/.ivy2/cache/org.squeryl/squeryl_2.9.1/ivy-0.9.5-3.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/squeryl/squeryl_2.9.1/0.9.5-3/squeryl_2.9.1-0.9.5-3.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template_2.9.1" conf="optional, compile, runtime, runtime-internal" rev="0.9.5-3" rev-constraint-default="0.9.5-3" rev-constraint-dynamic="0.9.5-3" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="squeryl_2.9.1" type="jar" ext="jar" status="no" details="" size="1702559" time="0" location="/home/devuser/.ivy2/cache/org.squeryl/squeryl_2.9.1/jars/squeryl_2.9.1-0.9.5-3.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/squeryl/squeryl_2.9.1/0.9.5-3/squeryl_2.9.1-0.9.5-3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="cglib" name="cglib-nodep">
+			<revision name="2.2" status="release" pubdate="20081202062832" resolver="public" artresolver="public" homepage="http://cglib.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="23">
+				<license name="ASF 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2499" time="0" location="/home/devuser/.ivy2/cache/cglib/cglib-nodep/ivy-2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/cglib/cglib-nodep/2.2/cglib-nodep-2.2.pom"/>
+				<caller organisation="org.squeryl" name="squeryl_2.9.1" conf="default, compile, runtime, master" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="0.9.5-3"/>
+				<artifacts>
+					<artifact name="cglib-nodep" type="jar" ext="jar" status="no" details="" size="322362" time="0" location="/home/devuser/.ivy2/cache/cglib/cglib-nodep/jars/cglib-nodep-2.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/cglib/cglib-nodep/2.2/cglib-nodep-2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.0.6" status="release" pubdate="20120608044239" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logback.qos.ch" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="19">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="11615" time="0" location="/home/devuser/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/ch/qos/logback/logback-classic/1.0.6/logback-classic-1.0.6.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template_2.9.1" conf="optional, compile, runtime, runtime-internal" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="logback-classic" type="jar" ext="jar" status="no" details="" size="251784" time="0" location="/home/devuser/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.0.6.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/ch/qos/logback/logback-classic/1.0.6/logback-classic-1.0.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.6.5" status="release" pubdate="20120604141817" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="21">
+				<metadata-artifact status="no" details="" size="4409" time="0" location="/home/devuser/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.5.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/slf4j/slf4j-api/1.6.5/slf4j-api-1.6.5.pom"/>
+				<caller organisation="net.liftweb" name="lift-common_2.9.1" conf="compile, runtime" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="2.5-M2"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.6.5" rev-constraint-default="1.6.5" rev-constraint-dynamic="1.6.5" callerrev="1.0.6"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="25962" time="0" location="/home/devuser/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.5.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/slf4j/slf4j-api/1.6.5/slf4j-api-1.6.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.6.4" status="release" pubdate="20111101064538" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<metadata-artifact status="no" details="" size="4338" time="0" location="/home/devuser/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom"/>
+				<evicted-by rev="1.6.5"/>
+				<caller organisation="net.liftweb" name="lift-common_2.9.1" conf="compile, runtime" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="2.5-M2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.0.6" status="release" pubdate="20120608044148" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logback.qos.ch" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="20">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="9706" time="0" location="/home/devuser/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/ch/qos/logback/logback-core/1.0.6/logback-core-1.0.6.pom"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="1.0.6"/>
+				<artifacts>
+					<artifact name="logback-core" type="jar" ext="jar" status="no" details="" size="349706" time="0" location="/home/devuser/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.0.6.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/ch/qos/logback/logback-core/1.0.6/logback-core-1.0.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftmodules" name="lift-jquery-module_2.9.1">
+			<revision name="2.5-M2-1.0" status="release" pubdate="20121019141533" resolver="releases" artresolver="releases" homepage="https://github.com/karma4u101/lift-jquery-module" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="15">
+				<license name="The Apache Software License, Version 2.0" url="http://maven.apache.org/ref/2.1.0/maven-profile/license.html"/>
+				<metadata-artifact status="no" details="" size="2900" time="0" location="/home/devuser/.ivy2/cache/net.liftmodules/lift-jquery-module_2.9.1/ivy-2.5-M2-1.0.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.9.1/2.5-M2-1.0/lift-jquery-module_2.9.1-2.5-M2-1.0.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template_2.9.1" conf="optional, compile, runtime, runtime-internal" rev="2.5-M2-1.0" rev-constraint-default="2.5-M2-1.0" rev-constraint-dynamic="2.5-M2-1.0" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="lift-jquery-module_2.9.1" type="jar" ext="jar" status="no" details="" size="345967" time="0" location="/home/devuser/.ivy2/cache/net.liftmodules/lift-jquery-module_2.9.1/jars/lift-jquery-module_2.9.1-2.5-M2-1.0.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.9.1/2.5-M2-1.0/lift-jquery-module_2.9.1-2.5-M2-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-webkit_2.9.1">
+			<revision name="2.5-M2" status="release" pubdate="20121019055459" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3730" time="0" location="/home/devuser/.ivy2/cache/net.liftweb/lift-webkit_2.9.1/ivy-2.5-M2.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.9.1/2.5-M2/lift-webkit_2.9.1-2.5-M2.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template_2.9.1" conf="optional, compile, runtime, runtime-internal" rev="2.5-M2" rev-constraint-default="2.5-M2" rev-constraint-dynamic="2.5-M2" callerrev="0.0.1"/>
+				<caller organisation="net.liftmodules" name="lift-jquery-module_2.9.1" conf="default, compile, runtime, master" rev="2.5-M2" rev-constraint-default="2.5-M2" rev-constraint-dynamic="2.5-M2" callerrev="2.5-M2-1.0"/>
+				<artifacts>
+					<artifact name="lift-webkit_2.9.1" type="jar" ext="jar" status="no" details="" size="5788651" time="0" location="/home/devuser/.ivy2/cache/net.liftweb/lift-webkit_2.9.1/jars/lift-webkit_2.9.1-2.5-M2.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.9.1/2.5-M2/lift-webkit_2.9.1-2.5-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-fileupload" name="commons-fileupload">
+			<revision name="1.2.2" status="release" pubdate="20120330143230" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/fileupload/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="14">
+				<metadata-artifact status="no" details="" size="6534" time="0" location="/home/devuser/.ivy2/cache/commons-fileupload/commons-fileupload/ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2.pom"/>
+				<caller organisation="net.liftweb" name="lift-webkit_2.9.1" conf="default, compile, runtime, master" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="2.5-M2"/>
+				<artifacts>
+					<artifact name="commons-fileupload" type="jar" ext="jar" status="no" details="" size="59590" time="0" location="/home/devuser/.ivy2/cache/commons-fileupload/commons-fileupload/jars/commons-fileupload-1.2.2.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-testkit_2.9.1">
+			<revision name="2.5-M2" status="release" pubdate="20121019055010" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="16">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3208" time="0" location="/home/devuser/.ivy2/cache/net.liftweb/lift-testkit_2.9.1/ivy-2.5-M2.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.9.1/2.5-M2/lift-testkit_2.9.1-2.5-M2.pom"/>
+				<caller organisation="net.liftmodules" name="lift-jquery-module_2.9.1" conf="default, compile, runtime, master" rev="2.5-M2" rev-constraint-default="2.5-M2" rev-constraint-dynamic="2.5-M2" callerrev="2.5-M2-1.0"/>
+				<artifacts>
+					<artifact name="lift-testkit_2.9.1" type="jar" ext="jar" status="no" details="" size="223473" time="0" location="/home/devuser/.ivy2/cache/net.liftweb/lift-testkit_2.9.1/jars/lift-testkit_2.9.1-2.5-M2.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.9.1/2.5-M2/lift-testkit_2.9.1-2.5-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-httpclient" name="commons-httpclient">
+			<revision name="3.1" status="release" pubdate="20070821214407" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/httpcomponents/httpclient-3.x/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="17">
+				<license name="Apache License" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3153" time="0" location="/home/devuser/.ivy2/cache/commons-httpclient/commons-httpclient/ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.pom"/>
+				<caller organisation="net.liftweb" name="lift-testkit_2.9.1" conf="compile, runtime" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="2.5-M2"/>
+				<artifacts>
+					<artifact name="commons-httpclient" type="jar" ext="jar" status="no" details="" size="305001" time="0" location="/home/devuser/.ivy2/cache/commons-httpclient/commons-httpclient/jars/commons-httpclient-3.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.0.4" status="release" pubdate="20051109061641" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/commons/logging/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="18">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2991" time="0" location="/home/devuser/.ivy2/cache/commons-logging/commons-logging/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.pom"/>
+				<caller organisation="commons-httpclient" name="commons-httpclient" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="3.1"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="38015" time="0" location="/home/devuser/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.0.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-util_2.9.1">
+			<revision name="2.5-M2" status="release" pubdate="20121019055220" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3856" time="0" location="/home/devuser/.ivy2/cache/net.liftweb/lift-util_2.9.1/ivy-2.5-M2.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.9.1/2.5-M2/lift-util_2.9.1-2.5-M2.pom"/>
+				<caller organisation="net.liftweb" name="lift-testkit_2.9.1" conf="compile, runtime" rev="2.5-M2" rev-constraint-default="2.5-M2" rev-constraint-dynamic="2.5-M2" callerrev="2.5-M2"/>
+				<caller organisation="net.liftweb" name="lift-webkit_2.9.1" conf="default, compile, runtime, master" rev="2.5-M2" rev-constraint-default="2.5-M2" rev-constraint-dynamic="2.5-M2" callerrev="2.5-M2"/>
+				<artifacts>
+					<artifact name="lift-util_2.9.1" type="jar" ext="jar" status="no" details="" size="1757587" time="0" location="/home/devuser/.ivy2/cache/net.liftweb/lift-util_2.9.1/jars/lift-util_2.9.1-2.5-M2.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.9.1/2.5-M2/lift-util_2.9.1-2.5-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="nu.validator.htmlparser" name="htmlparser">
+			<revision name="1.4" status="release" pubdate="20120629005554" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://about.validator.nu/htmlparser/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="13">
+				<license name="The MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<license name="The (New) BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3770" time="0" location="/home/devuser/.ivy2/cache/nu.validator.htmlparser/htmlparser/ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/nu/validator/htmlparser/htmlparser/1.4/htmlparser-1.4.pom"/>
+				<caller organisation="net.liftweb" name="lift-util_2.9.1" conf="compile, runtime" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="2.5-M2"/>
+				<artifacts>
+					<artifact name="htmlparser" type="bundle" ext="jar" status="no" details="" size="295791" time="0" location="/home/devuser/.ivy2/cache/nu.validator.htmlparser/htmlparser/bundles/htmlparser-1.4.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/nu/validator/htmlparser/htmlparser/1.4/htmlparser-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.mail" name="mail">
+			<revision name="1.4.4" status="release" pubdate="20110128035123" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="11">
+				<metadata-artifact status="no" details="" size="6119" time="0" location="/home/devuser/.ivy2/cache/javax.mail/mail/ivy-1.4.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/mail/mail/1.4.4/mail-1.4.4.pom"/>
+				<caller organisation="net.liftweb" name="lift-util_2.9.1" conf="compile, runtime" rev="1.4.4" rev-constraint-default="1.4.4" rev-constraint-dynamic="1.4.4" callerrev="2.5-M2"/>
+				<artifacts>
+					<artifact name="mail" type="jar" ext="jar" status="no" details="" size="494924" time="0" location="/home/devuser/.ivy2/cache/javax.mail/mail/jars/mail-1.4.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/mail/mail/1.4.4/mail-1.4.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.activation" name="activation">
+			<revision name="1.1" status="release" pubdate="20060503074829" resolver="public" artresolver="public" homepage="http://java.sun.com/products/javabeans/jaf/index.jsp" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="12">
+				<license name="Common Development and Distribution License (CDDL) v1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
+				<metadata-artifact status="no" details="" size="2718" time="0" location="/home/devuser/.ivy2/cache/javax.activation/activation/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/activation/activation/1.1/activation-1.1.pom"/>
+				<caller organisation="javax.mail" name="mail" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.4.4"/>
+				<artifacts>
+					<artifact name="activation" type="jar" ext="jar" status="no" details="" size="62983" time="0" location="/home/devuser/.ivy2/cache/javax.activation/activation/jars/activation-1.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/activation/activation/1.1/activation-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.6" status="release" pubdate="20120626174005" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="10">
+				<metadata-artifact status="no" details="" size="7555" time="0" location="/home/devuser/.ivy2/cache/commons-codec/commons-codec/ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/commons-codec/commons-codec/1.6/commons-codec-1.6.pom"/>
+				<caller organisation="net.liftweb" name="lift-util_2.9.1" conf="compile, runtime" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="2.5-M2"/>
+				<caller organisation="commons-httpclient" name="commons-httpclient" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="3.1"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="232771" time="0" location="/home/devuser/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.6.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/commons-codec/commons-codec/1.6/commons-codec-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="1.6"/>
+				<caller organisation="commons-httpclient" name="commons-httpclient" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="3.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="1.6.2" status="release" pubdate="20100914070700" resolver="public" artresolver="public" homepage="http://joda-time.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="9">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3201" time="0" location="/home/devuser/.ivy2/cache/joda-time/joda-time/ivy-1.6.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/joda-time/joda-time/1.6.2/joda-time-1.6.2.pom"/>
+				<caller organisation="net.liftweb" name="lift-util_2.9.1" conf="compile, runtime" rev="1.6.2" rev-constraint-default="1.6.2" rev-constraint-dynamic="1.6.2" callerrev="2.5-M2"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="543044" time="0" location="/home/devuser/.ivy2/cache/joda-time/joda-time/jars/joda-time-1.6.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/joda-time/joda-time/1.6.2/joda-time-1.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-json_2.9.1">
+			<revision name="2.5-M2" status="release" pubdate="20121019054942" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="5">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3043" time="0" location="/home/devuser/.ivy2/cache/net.liftweb/lift-json_2.9.1/ivy-2.5-M2.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.9.1/2.5-M2/lift-json_2.9.1-2.5-M2.pom"/>
+				<caller organisation="net.liftweb" name="lift-util_2.9.1" conf="compile, runtime" rev="2.5-M2" rev-constraint-default="2.5-M2" rev-constraint-dynamic="2.5-M2" callerrev="2.5-M2"/>
+				<artifacts>
+					<artifact name="lift-json_2.9.1" type="jar" ext="jar" status="no" details="" size="467015" time="0" location="/home/devuser/.ivy2/cache/net.liftweb/lift-json_2.9.1/jars/lift-json_2.9.1-2.5-M2.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.9.1/2.5-M2/lift-json_2.9.1-2.5-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.4.1" status="release" pubdate="20120331075641" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="8">
+				<metadata-artifact status="no" details="" size="3447" time="0" location="/home/devuser/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/thoughtworks/paranamer/paranamer/2.4.1/paranamer-2.4.1.pom"/>
+				<caller organisation="net.liftweb" name="lift-json_2.9.1" conf="compile, runtime" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="2.5-M2"/>
+				<artifacts>
+					<artifact name="paranamer" type="jar" ext="jar" status="no" details="" size="29734" time="0" location="/home/devuser/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.4.1.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/thoughtworks/paranamer/paranamer/2.4.1/paranamer-2.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scalap">
+			<revision name="2.9.1" status="release" pubdate="20110831164129" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="6">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2476" time="0" location="/home/devuser/.ivy2/cache/org.scala-lang/scalap/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.9.1/scalap-2.9.1.pom"/>
+				<caller organisation="net.liftweb" name="lift-json_2.9.1" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.5-M2"/>
+				<caller organisation="org.squeryl" name="squeryl_2.9.1" conf="default, compile, runtime, master" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.9.5-3"/>
+				<artifacts>
+					<artifact name="scalap" type="jar" ext="jar" status="no" details="" size="841814" time="0" location="/home/devuser/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.9.1.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.9.1/scalap-2.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.9.1" status="release" pubdate="20110831164108" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="7">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2604" time="0" location="/home/devuser/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.1/scala-compiler-2.9.1.pom"/>
+				<caller organisation="net.liftweb" name="lift-util_2.9.1" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.5-M2"/>
+				<caller organisation="org.scala-lang" name="scalap" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.9.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-actor_2.9.1">
+			<revision name="2.5-M2" status="release" pubdate="20121019055049" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2906" time="0" location="/home/devuser/.ivy2/cache/net.liftweb/lift-actor_2.9.1/ivy-2.5-M2.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.9.1/2.5-M2/lift-actor_2.9.1-2.5-M2.pom"/>
+				<caller organisation="net.liftweb" name="lift-util_2.9.1" conf="compile, runtime" rev="2.5-M2" rev-constraint-default="2.5-M2" rev-constraint-dynamic="2.5-M2" callerrev="2.5-M2"/>
+				<artifacts>
+					<artifact name="lift-actor_2.9.1" type="jar" ext="jar" status="no" details="" size="86743" time="0" location="/home/devuser/.ivy2/cache/net.liftweb/lift-actor_2.9.1/jars/lift-actor_2.9.1-2.5-M2.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.9.1/2.5-M2/lift-actor_2.9.1-2.5-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-common_2.9.1">
+			<revision name="2.5-M2" status="release" pubdate="20121019054957" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="4">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3200" time="0" location="/home/devuser/.ivy2/cache/net.liftweb/lift-common_2.9.1/ivy-2.5-M2.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.9.1/2.5-M2/lift-common_2.9.1-2.5-M2.pom"/>
+				<caller organisation="net.liftweb" name="lift-actor_2.9.1" conf="compile, runtime" rev="2.5-M2" rev-constraint-default="2.5-M2" rev-constraint-dynamic="2.5-M2" callerrev="2.5-M2"/>
+				<artifacts>
+					<artifact name="lift-common_2.9.1" type="jar" ext="jar" status="no" details="" size="183116" time="0" location="/home/devuser/.ivy2/cache/net.liftweb/lift-common_2.9.1/jars/lift-common_2.9.1-2.5-M2.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.9.1/2.5-M2/lift-common_2.9.1-2.5-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.9.1" status="release" pubdate="20110831163953" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2322" time="0" location="/home/devuser/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.pom"/>
+				<caller organisation="net.liftweb" name="lift-common_2.9.1" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.5-M2"/>
+				<caller organisation="net.liftweb" name="lift-util_2.9.1" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.5-M2"/>
+				<caller organisation="net.liftweb" name="lift-json_2.9.1" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.5-M2"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template_2.9.1" conf="optional, compile, runtime, runtime-internal" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.0.1"/>
+				<caller organisation="net.liftmodules" name="lift-jquery-module_2.9.1" conf="default, compile, runtime, master" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.5-M2-1.0"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.9.1"/>
+				<caller organisation="net.liftweb" name="lift-actor_2.9.1" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.5-M2"/>
+				<caller organisation="org.squeryl" name="squeryl_2.9.1" conf="default, compile, runtime, master" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.9.5-3"/>
+				<caller organisation="net.liftweb" name="lift-testkit_2.9.1" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.5-M2"/>
+				<caller organisation="net.liftweb" name="lift-webkit_2.9.1" conf="default, compile, runtime, master" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.5-M2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
